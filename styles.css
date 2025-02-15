@@ -1177,6 +1177,11 @@ footer {
     .services {
         justify-content: center;
     }
+    
+    .feature {
+        width: auto;
+        max-width: 384px;
+    }
 
     .quality__row,
     .values__row {
@@ -1244,6 +1249,16 @@ footer {
 
     .section__para {
         font-size: 16px;
+    }
+
+    .started__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .started__button--btn:nth-child(1) {
+        margin-bottom: 10px;
+        margin-right: 0;
     }
 
     .footer__columns {
